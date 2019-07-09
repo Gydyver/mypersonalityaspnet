@@ -1,0 +1,23 @@
+Isi projectMyPersonalityBeda2
+
+Bahasa Pemograman: ASP.NET Webform (C#)
+Nama solution (project): projectMyPersonality
+
+Database : SQL SERVER.
+Nama database : mypersonality2
+
+catatan :
+1. Diaplikasi ini, satu user bisa ngambil tes lebih dari sekali.
+2. Kalo user udah pernah ngambil tes, terus ngambil tes lagi dan hasilnya beda,
+	maka nanti hasil terakhir yang bakal ditampilkan.
+
+
+Tampilan :
+1. Choose_Page.aspx = Paling awal, user milih mau "take the test" untuk ikut tes 
+	atau "Result" untuk cek hasil dari tes yang udah pernah diambil sebelumnya
+2. UserLogin.aspx = Login untuk user ikut tes
+3. UserLogin2.aspx = Login untuk user cek hasil tes yang pernah diambil sebelumnya.
+	Yang ditampilin adalah data kepribadian paling akhir dari si user
+4. UserHome.aspx = Tampil setelah user login di UserLogin.aspx. Dengan kata lain, 
+	UserHome.aspx adalah tampilan yang berisi soal soal untuk para user jawab.
+5. PersonalityTypes.aspx = Tampilan utama 16 personality yang ada.
